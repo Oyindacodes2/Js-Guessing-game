@@ -1,0 +1,57 @@
+
+.main{
+    position: absolute;
+    left: 30em;
+    margin-top: 10em;
+    border: 2px groove rgba(21,48,90);
+    padding: 8px;
+    padding-right: -80px;
+    text-align: center;
+    font-family: sans-serif;
+    color: cadetblue;
+    margin-bottom: 400px;
+}
+
+.guessField{
+    height: 5em;
+    font-weight: 300px;
+    font-size: 25px;
+    width: 5em;
+    text-align: center;
+    width: 100%;
+    background: #d5d5d5;
+    transition: 1s;
+}
+
+.guessField , textarea:focus{
+      background: #d5d5d5;
+      box-shadow: 23px 12px -8px 12px inset black;
+      outline-style: none;
+}
+ 
+button{
+    padding: 4px 20px 4px 20px;
+    margin: 8px;
+    display: inline-flex;
+    cursor: pointer;
+    transition: 1s;
+}
+
+ button:hover{
+     color: #ffffff;
+     background:#000;
+ }
+.resetbtn{
+    position: absolute;
+    left: -40em;
+    margin-top: 20em;
+}
+.guessbtn{
+    transition: 1s;
+    padding: 4px 20px 4px 20px;
+}
+
+.guessbtn:hover{
+    color: #ffffff;
+    background: #00aaf6;
+}
